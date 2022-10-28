@@ -1,7 +1,7 @@
 import React from 'react';
 import doctor from '../../assets/images/doctor-small.png'
 
-const Appointment = () => {
+const AppointmentBanner = () => {
     return (
         <div className="mt-20 px-14 lg:flex items-center mb-10 bg-[url('https://i.postimg.cc/PJGXqMrb/appointment.png')]">
             <img className='mt-[-130px] hidden lg:block' src={doctor} alt="" />
@@ -15,4 +15,4 @@ const Appointment = () => {
     );
 };
 
-export default Appointment;
+export default AppointmentBanner;
